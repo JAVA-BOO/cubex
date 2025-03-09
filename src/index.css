@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-main: #7b2b80;
+  --color-bodyLight: #ffffff;
+  --font-inter: "Inter", sans-serif;
+  --color-secondary: #f4b917;
+}
+
+body {
+  @apply font-inter;
+}
+
+img {
+  @apply h-auto max-w-full;
+}
+
+.noScrollBar {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-x: scroll;
+}
+.noScrollBar::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
