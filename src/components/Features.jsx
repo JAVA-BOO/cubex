@@ -1,7 +1,7 @@
 import React from "react";
 import Wallets from "../assets/wallets.png";
 import Rates from "../assets/rates.png";
-// import Hands from "../assets/hands.png";
+import Hands from "../assets/Hands.png";
 
 export default function Features() {
   return (
@@ -46,7 +46,7 @@ export default function Features() {
           </div>
           <img
             className="mx-auto w-[300px] lg:absolute lg:top-0 lg:left-0 lg:w-[400px]"
-            src="/src/assets/hands.png"
+            src={Hands}
             alt=""
           />
         </div>
